@@ -1,0 +1,198 @@
+.normal {
+	background-color: #a6a877;
+}
+
+.grass {
+	background-color: #77c850;
+}
+
+.fire {
+	background-color: #ee7f30;
+}
+
+.water {
+	background-color: #678fee;
+}
+
+.electric {
+	background-color: #f7cf2e;
+}
+
+.ice {
+	background-color: #98d5d7;
+}
+
+.ground {
+	background-color: #dfbf69;
+}
+
+.flying {
+	background-color: #a98ff0;
+}
+
+.poison {
+	background-color: #a040a0;
+}
+
+.fighting {
+	background-color: #bf3029;
+}
+
+.psychic {
+	background-color: #f65687;
+}
+
+.dark {
+	background-color: #725847;
+}
+
+.rock {
+	background-color: #b8a137;
+}
+
+.bug {
+	background-color: #a8b720;
+}
+
+.ghost {
+	background-color: #6e5896;
+}
+
+.steel {
+	background-color: #b9b7cf;
+}
+
+.dragon {
+	background-color: #6f38f6;
+}
+
+.fairy {
+	background-color: #f9aec7;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4rem 1rem;
+}
+
+header img {
+	height: 24px;
+	cursor: pointer;
+	filter: invert(1);
+}
+
+.cabecalho {
+	margin-top: -2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+}
+
+.cabecalho .titulo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.cabecalho .titulo h2 {
+	text-transform: capitalize;
+	margin-bottom: 1rem;
+	color: #fff;
+}
+
+.cabecalho .titulo .types {
+	display: flex;
+	flex-direction: row;
+	gap: 0.635rem;
+}
+
+.types li {
+	filter: brightness(1.1);
+	padding: 0.435rem;
+	border-radius: 18px;
+	width: 5rem;
+	text-align: center;
+	color: #fff;
+}
+
+span.number {
+	color: #fff;
+}
+
+div.imagem {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 18rem;
+}
+div.imagem img {
+	height: inherit;
+}
+
+div.infos {
+	margin-top: -2rem;
+	padding: 2rem 2rem 1rem 2rem;
+	background-color: #ffffff;
+	border-top-left-radius: 24px;
+	border-top-right-radius: 24px;
+}
+div.infos nav ul {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 0;
+}
+
+div.infos nav ul li {
+	font-size: 0.835rem;
+	font-weight: 400;
+	color: #aaa;
+	cursor: pointer;
+}
+
+div.infos nav ul li.active {
+	color: #000;
+}
+
+div.infos nav ul li.active::after {
+	content: " ";
+	display: flex;
+	height: 2px;
+	width: calc(width + 1rem);
+	margin-top: 0.635rem;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #000;
+}
+
+table {
+	width: 100%;
+}
+
+table tr {
+	line-height: 2rem;
+}
+
+table tr td:first-child {
+	color: #aaa;
+	width: 8rem;
+}
+
+h3 {
+	margin: 1rem 0;
+}
